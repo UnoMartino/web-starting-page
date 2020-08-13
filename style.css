@@ -1,0 +1,24 @@
+body
+{
+    font-size: 20px;
+}
+
+.container
+{
+    /*display: grid;
+    place-items: center; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    color: black;
+}
+
+.naglowek
+{
+    text-align: center;
+    flex: 1 1 150px; /*  Stretching: */
+    margin: 5px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: gray;
+}
